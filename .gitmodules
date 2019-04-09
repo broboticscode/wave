@@ -1,6 +1,6 @@
 [submodule "vesc"]
 	path = vesc
-	url = https://github.com/roaldlemmens/vesc.git
+	url = https://github.com/broboticscode/vesc
 [submodule "ackermann_msgs"]
 	path = ackermann_msgs
 	url = https://github.com/ros-drivers/ackermann_msgs.git
