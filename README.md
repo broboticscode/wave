@@ -26,7 +26,7 @@ catkin_make
 
 ### Checkout and initialize and update submodules
 ```
-cd ~/wave_ws/src
+cd src
 git clone https://github.com/broboticscode/wave
 cd wave
 git submodule init
@@ -35,7 +35,6 @@ git submodule update
 ### Compile code
 ```
 cd ../..
-cd wave_ws
 catkin_make
 ```
 If your environment is setup correctly, you shouldn't have any compilation errors. If so you are probably missing dependencies.
