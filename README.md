@@ -8,13 +8,13 @@ from this main repository.
 
 ## Installation
 ### ROS distribution
-The morph stack has been tested with the ROS Indigo and Kinetic distributions. For instructions on installing ROS see the [ROS wiki](http://wiki.ros.org/).
+The wave stack has been tested with the ROS Kinetic distribution only and all references will be for Kinetic packages. For instructions on installing ROS see the [ROS wiki](http://wiki.ros.org/).
 
 ### ROS package dependencies
-The morph stack uses the Turtlebot stack and ros_control. Follow [installation instructions for the Turtlebot stack](http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation).
+The wave stack uses the Turtlebot stack for many components and ros_control. Follow [installation instructions for the Turtlebot stack](http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation).
 Other dependencies are linked as submodule from the morph repository.
 ```
-sudo apt-get install ros-indigo-ros-control ros-indigo-ros-controllers
+sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers
 ```
 
 ### Create a catkin_workspace
